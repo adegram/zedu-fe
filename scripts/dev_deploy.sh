@@ -1,6 +1,8 @@
 #!/bin/bash
+#
+#
 
-set -e
+set -euo 
 
 cd "$(git rev-parse --show-toplevel)"
 git pull origin dev
